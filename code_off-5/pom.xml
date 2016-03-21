@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>CodeOff</groupId>
+    <artifactId>CodeOff</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <dependencies>
+        <!--
+          Add this dependency under your pom.xml <dependencies> section to add
+          all the dependencies of Hipster to your project. Add hipster-core
+          instead of hipster-all for core functionality.
+        -->
+        <dependency>
+            <groupId>es.usc.citius.hipster</groupId>
+            <artifactId>hipster-all</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
